@@ -5,12 +5,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
   },
   "keywords": [],
   "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "20.4.1",
     "typescript": "5.1.6"
+  },
+  "dependencies": {
+    "dotenv": "16.3.1",
+    "langchain": "0.0.106"
   }
 }
