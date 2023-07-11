@@ -1,0 +1,16 @@
+{
+  "name": "langchain-notebook-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.1.6"
+  }
+}
